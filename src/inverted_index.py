@@ -1,3 +1,4 @@
+from __future__ import division
 import json
 import time
 import math
@@ -30,7 +31,7 @@ class InvertedIndex():
 
 		finish = time.time()
 		elapsed = finish - start
-		print "Built inverted index from "+str(len(self.documents))+" documents in "+str(elapsed)+" seconds."
+		#print "Built inverted index from "+str(len(self.documents))+" documents in "+str(elapsed)+" seconds."
 
 	def __str__(self):
 		return json.dumps(self.table, indent=1)
@@ -59,11 +60,11 @@ class InvertedIndex():
 						matrix[i][j] = tf*idf
 
 				val = i*step
-				print ""+str(val)+"% complete..."
+				#print ""+str(val)+"% complete..."
 
 			finish = time.time()
 			elapsed = finish - start
-			print "Built tf-idf matrix in "+str(elapsed)+" seconds."
+			#print "Built tf-idf matrix in "+str(elapsed)+" seconds."
 
 			return matrix, classes
 
@@ -83,11 +84,11 @@ class InvertedIndex():
 					matrix[i][j] = tf*idf
 
 				val = i*step
-				print ""+str(val)+"% complete..."
+				#print ""+str(val)+"% complete..."
 
 			finish = time.time()
 			elapsed = finish - start
-			print "Built tf-idf matrix in "+str(elapsed)+" seconds."
+			#print "Built tf-idf matrix in "+str(elapsed)+" seconds."
 
 			return matrix
 		
@@ -113,3 +114,19 @@ class InvertedIndex():
 		N = len(self.tokens)
 		document_frequency = len(self.table[term].keys())
 		return math.log10(N/1 + document_frequency)
+
+	def trim(self, ratio=0.5):
+		for token in self.tokens:
+			docs = self.table[token]
+			js, gs = 0, 0
+			for doc in docs:
+				if doc[1] == 'j':
+					js += 1
+				else:
+					gs += 1
+			major = gs if gs > js else js
+			fraction = major / (gs+js)
+			if len(docs) == 1 or fraction <= ratio: 
+				del self.table[token]
+
+		self.tokens = self.table.keys()
