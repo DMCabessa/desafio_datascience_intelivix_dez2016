@@ -14,7 +14,7 @@ test_range = 10
 mse_dict = {'mlp':list(), 'tree':list(), 'svm':list()}
 
 for i in range(1,(test_range+1)):
-	print "Running test loop "+str(i)+" out of "+str(test_range)+"..."
+	print "\nRunning test loop "+str(i)+" out of "+str(test_range)+"..."
 
 	relevant_files = file_handler.getrelevant()
 	trainset = random.sample(relevant_files, 103)
@@ -47,7 +47,7 @@ for i in range(1,(test_range+1)):
 			misses += 1
 
 	mse = misses / len(testset)
-	print "MLP::mse: "+str(mse)
+	print "MLP::mse: \t\t"+str(mse)
 	mse_dict['mlp'].append(mse)
 
 	# ==================================================
@@ -72,7 +72,7 @@ for i in range(1,(test_range+1)):
 			misses += 1
 
 	mse = misses / len(testset)
-	print "Decision tree::mse: "+str(mse)
+	print "Decision tree::mse: \t"+str(mse)
 	mse_dict['tree'].append(mse)
 
 	# ==================================================
@@ -97,14 +97,14 @@ for i in range(1,(test_range+1)):
 			misses += 1
 
 	mse = misses / len(testset)
-	print "SVM::mse: "+str(mse)
+	print "SVM::mse: \t\t"+str(mse)
 	mse_dict['svm'].append(mse)
 
 
 print "\n\nAverage mse: "
-print "\tMLP -> "+str(numpy.mean(mse_dict['mlp']))
-print "\tDecision tree -> "+str(numpy.mean(mse_dict['tree']))
-print "\tSVM -> "+str(numpy.mean(mse_dict['svm']))
+print "\tMLP -> \t\t"+str(numpy.mean(mse_dict['mlp']))
+print "\tDecision tree -> \t"+str(numpy.mean(mse_dict['tree']))
+print "\tSVM -> \t\t"+str(numpy.mean(mse_dict['svm']))
 
 # with open("dump.csv","wb") as f:
 #	 writer = csv.writer(f)
