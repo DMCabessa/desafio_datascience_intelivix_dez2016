@@ -1,0 +1,56 @@
+Running test loop 1 out of 10...
+MLP::mse: 		0.192307692308
+Decision tree::mse: 	0.307692307692
+SVM::mse: 		0.173076923077
+
+Running test loop 2 out of 10...
+MLP::mse: 		0.173076923077
+Decision tree::mse: 	0.384615384615
+SVM::mse: 		0.173076923077
+
+Running test loop 3 out of 10...
+MLP::mse: 		0.480769230769
+Decision tree::mse: 	0.461538461538
+SVM::mse: 		0.192307692308
+
+Running test loop 4 out of 10...
+MLP::mse: 		0.557692307692
+Decision tree::mse: 	0.269230769231
+SVM::mse: 		0.230769230769
+
+Running test loop 5 out of 10...
+MLP::mse: 		0.173076923077
+Decision tree::mse: 	0.384615384615
+SVM::mse: 		0.153846153846
+
+Running test loop 6 out of 10...
+MLP::mse: 		0.0961538461538
+Decision tree::mse: 	0.346153846154
+SVM::mse: 		0.192307692308
+
+Running test loop 7 out of 10...
+MLP::mse: 		0.153846153846
+Decision tree::mse: 	0.365384615385
+SVM::mse: 		0.25
+
+Running test loop 8 out of 10...
+MLP::mse: 		0.538461538462
+Decision tree::mse: 	0.269230769231
+SVM::mse: 		0.192307692308
+
+Running test loop 9 out of 10...
+MLP::mse: 		0.25
+Decision tree::mse: 	0.307692307692
+SVM::mse: 		0.192307692308
+
+Running test loop 10 out of 10...
+MLP::mse: 		0.192307692308
+Decision tree::mse: 	0.288461538462
+SVM::mse: 		0.173076923077
+
+
+Average mse: 
+	MLP -> 		0.280769230769
+	Decision tree -> 	0.338461538462
+	SVM -> 		0.192307692308
+
