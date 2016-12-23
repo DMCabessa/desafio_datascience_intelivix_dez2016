@@ -17,10 +17,10 @@ class InvertedIndex():
 			processed = file_handler.preprocess(file)
 
 			for token in processed:
-				self.tokens.append(token)
 
 				if token not in self.table:
 					self.table[token] = dict()
+					self.tokens.append(token)
 
 				token_data = self.table[token]
 				if fileid not in token_data:
@@ -59,7 +59,7 @@ class InvertedIndex():
 						matrix[i][j] = tf*idf
 
 				val = i*step
-				#print ""+str(val)+"% complete..."
+				print ""+str(val)+"% complete..."
 
 			finish = time.time()
 			elapsed = finish - start
@@ -83,7 +83,7 @@ class InvertedIndex():
 					matrix[i][j] = tf*idf
 
 				val = i*step
-				#print ""+str(val)+"% complete..."
+				print ""+str(val)+"% complete..."
 
 			finish = time.time()
 			elapsed = finish - start
