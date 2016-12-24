@@ -1,0 +1,110 @@
+Running test loop 1 out of 5...
+========================================
+Testing values for 'max_features'
+========================================
+> Best score: 0.699029126214
+> Best param: None
+========================================
+Testing values for 'min_samples_split'
+========================================
+> Best score: 0.708737864078
+> Best param: 6
+========================================
+Testing values for 'criterion'
+========================================
+> Best score: 0.679611650485
+> Best param: entropy
+========================================
+Testing values for 'min_samples_leaf'
+========================================
+> Best score: 0.650485436893
+> Best param: 1
+
+Running test loop 2 out of 5...
+========================================
+Testing values for 'max_features'
+========================================
+> Best score: 0.708737864078
+> Best param: log2
+========================================
+Testing values for 'min_samples_split'
+========================================
+> Best score: 0.718446601942
+> Best param: 2
+========================================
+Testing values for 'criterion'
+========================================
+> Best score: 0.73786407767
+> Best param: gini
+========================================
+Testing values for 'min_samples_leaf'
+========================================
+> Best score: 0.757281553398
+> Best param: 1
+
+Running test loop 3 out of 5...
+========================================
+Testing values for 'max_features'
+========================================
+> Best score: 0.718446601942
+> Best param: sqrt
+========================================
+Testing values for 'min_samples_split'
+========================================
+> Best score: 0.621359223301
+> Best param: 6
+========================================
+Testing values for 'criterion'
+========================================
+> Best score: 0.640776699029
+> Best param: entropy
+========================================
+Testing values for 'min_samples_leaf'
+========================================
+> Best score: 0.572815533981
+> Best param: 1
+
+Running test loop 4 out of 5...
+========================================
+Testing values for 'max_features'
+========================================
+> Best score: 0.708737864078
+> Best param: None
+========================================
+Testing values for 'min_samples_split'
+========================================
+> Best score: 0.747572815534
+> Best param: 6
+========================================
+Testing values for 'criterion'
+========================================
+> Best score: 0.747572815534
+> Best param: gini
+========================================
+Testing values for 'min_samples_leaf'
+========================================
+> Best score: 0.747572815534
+> Best param: 1
+
+Running test loop 5 out of 5...
+========================================
+Testing values for 'max_features'
+========================================
+> Best score: 0.718446601942
+> Best param: None
+========================================
+Testing values for 'min_samples_split'
+========================================
+> Best score: 0.699029126214
+> Best param: 2
+========================================
+Testing values for 'criterion'
+========================================
+> Best score: 0.73786407767
+> Best param: gini
+========================================
+Testing values for 'min_samples_leaf'
+========================================
+> Best score: 0.728155339806
+> Best param: 2
+
