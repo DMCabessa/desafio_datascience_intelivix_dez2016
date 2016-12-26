@@ -9,7 +9,9 @@ from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 import numpy as np
 
-test_range = 5
+from collections import Counter
+
+test_range = 10
 results = {'criterion' : [], 'max_features' : [],
  	'min_samples_split' : [], 'min_samples_leaf' : []}
 
@@ -54,3 +56,7 @@ for gen in range(1,(test_range+1)):
 		print "> Best score: "+str(grid.best_score_)
 		print "> Best param: "+str(getattr(grid.best_estimator_,param))
 		results[param].append(str(getattr(grid.best_estimator_,param)))
+
+print "\n\n"
+for arg in results.keys():
+	print "Best value for '"+arg+"': "+Counter(results[arg]).most_common()[0][0]

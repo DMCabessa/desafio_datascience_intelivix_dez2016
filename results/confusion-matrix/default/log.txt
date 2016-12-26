@@ -1,0 +1,148 @@
+Running test loop 1 out of 10...
+MLP::mse: 		0.230769230769
+Confusion matrix, without normalization
+[[18  9]
+ [ 3 22]]
+Decision tree::mse: 	0.269230769231
+Confusion matrix, without normalization
+[[17 10]
+ [ 4 21]]
+SVM::mse: 		0.269230769231
+Confusion matrix, without normalization
+[[14 13]
+ [ 1 24]]
+
+Running test loop 2 out of 10...
+MLP::mse: 		0.384615384615
+Confusion matrix, without normalization
+[[26  1]
+ [19  6]]
+Decision tree::mse: 	0.288461538462
+Confusion matrix, without normalization
+[[21  6]
+ [ 9 16]]
+SVM::mse: 		0.211538461538
+Confusion matrix, without normalization
+[[22  5]
+ [ 6 19]]
+
+Running test loop 3 out of 10...
+MLP::mse: 		0.173076923077
+Confusion matrix, without normalization
+[[20  2]
+ [ 7 23]]
+Decision tree::mse: 	0.346153846154
+Confusion matrix, without normalization
+[[19  3]
+ [15 15]]
+SVM::mse: 		0.173076923077
+Confusion matrix, without normalization
+[[20  2]
+ [ 7 23]]
+
+Running test loop 4 out of 10...
+MLP::mse: 		0.307692307692
+Confusion matrix, without normalization
+[[13 16]
+ [ 0 23]]
+Decision tree::mse: 	0.288461538462
+Confusion matrix, without normalization
+[[19 10]
+ [ 5 18]]
+SVM::mse: 		0.230769230769
+Confusion matrix, without normalization
+[[19 10]
+ [ 2 21]]
+
+Running test loop 5 out of 10...
+MLP::mse: 		0.269230769231
+Confusion matrix, without normalization
+[[27  0]
+ [14 11]]
+Decision tree::mse: 	0.269230769231
+Confusion matrix, without normalization
+[[20  7]
+ [ 7 18]]
+SVM::mse: 		0.134615384615
+Confusion matrix, without normalization
+[[22  5]
+ [ 2 23]]
+
+Running test loop 6 out of 10...
+MLP::mse: 		0.326923076923
+Confusion matrix, without normalization
+[[11 17]
+ [ 0 24]]
+Decision tree::mse: 	0.288461538462
+Confusion matrix, without normalization
+[[21  7]
+ [ 8 16]]
+SVM::mse: 		0.211538461538
+Confusion matrix, without normalization
+[[19  9]
+ [ 2 22]]
+
+Running test loop 7 out of 10...
+MLP::mse: 		0.307692307692
+Confusion matrix, without normalization
+[[14 16]
+ [ 0 22]]
+Decision tree::mse: 	0.423076923077
+Confusion matrix, without normalization
+[[18 12]
+ [10 12]]
+SVM::mse: 		0.192307692308
+/usr/local/lib/python2.7/dist-packages/matplotlib/pyplot.py:524: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  max_open_warning, RuntimeWarning)
+Confusion matrix, without normalization
+[[22  8]
+ [ 2 20]]
+
+Running test loop 8 out of 10...
+MLP::mse: 		0.25
+Confusion matrix, without normalization
+[[21 10]
+ [ 3 18]]
+Decision tree::mse: 	0.288461538462
+Confusion matrix, without normalization
+[[21 10]
+ [ 5 16]]
+SVM::mse: 		0.25
+Confusion matrix, without normalization
+[[21 10]
+ [ 3 18]]
+
+Running test loop 9 out of 10...
+MLP::mse: 		0.269230769231
+Confusion matrix, without normalization
+[[12 13]
+ [ 1 26]]
+Decision tree::mse: 	0.25
+Confusion matrix, without normalization
+[[20  5]
+ [ 8 19]]
+SVM::mse: 		0.211538461538
+Confusion matrix, without normalization
+[[19  6]
+ [ 5 22]]
+
+Running test loop 10 out of 10...
+MLP::mse: 		0.192307692308
+Confusion matrix, without normalization
+[[23  7]
+ [ 3 19]]
+Decision tree::mse: 	0.384615384615
+Confusion matrix, without normalization
+[[17 13]
+ [ 7 15]]
+SVM::mse: 		0.173076923077
+Confusion matrix, without normalization
+[[21  9]
+ [ 0 22]]
+
+
+Average mse: 
+	MLP -> 		0.271153846154
+	Decision tree -> 	0.309615384615
+	SVM -> 		0.205769230769
+

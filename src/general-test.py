@@ -41,7 +41,9 @@ for gen in range(1,(test_range+1)):
 
 	# Training step
 	#print "Starting training step..."
-	classifier = MLPClassifier()
+	classifier = MLPClassifier(solver='lbfgs', activation='logistic',
+		hidden_layer_sizes=(50,),alpha=0.001,learning_rate='adaptive',
+		learning_rate_init=0.0001)
 	classifier.fit(training_samples, training_classes)
 	#print "Finished training."
 
@@ -66,7 +68,7 @@ for gen in range(1,(test_range+1)):
 	file_handler.plot_confusion_matrix(cnf_matrix, classes=['learned','belles_letters'],
 		title='MLP confusion matrix')
 
-	plt.savefig('../results/confusion-matrix/'+str(gen)+'-mlp-confusion-matrix.png')
+	plt.savefig('../results/confusion-matrix/tunned/'+str(gen)+'-mlp-confusion-matrix.png')
 
 	# ==================================================
 	# Decision tree classifier
@@ -74,7 +76,8 @@ for gen in range(1,(test_range+1)):
 
 	# Training step
 	#print "Starting training step..."
-	classifier = tree.DecisionTreeClassifier()
+	classifier = tree.DecisionTreeClassifier(max_features='sqrt',
+		min_samples_split=2, criterion='gini', min_samples_leaf=1)
 	classifier.fit(training_samples, training_classes)
 	#print "Finished training."
 
@@ -99,7 +102,7 @@ for gen in range(1,(test_range+1)):
 	file_handler.plot_confusion_matrix(cnf_matrix, classes=['learned','belles_letters'],
 		title='Decision tree confusion matrix')
 
-	plt.savefig('../results/confusion-matrix/'+str(gen)+'-tree-confusion-matrix.png')
+	plt.savefig('../results/confusion-matrix/tunned/'+str(gen)+'-tree-confusion-matrix.png')
 
 	# ==================================================
 	# Support vector machine classifier
@@ -107,7 +110,7 @@ for gen in range(1,(test_range+1)):
 
 	# Training step
 	#print "Starting training step..."
-	classifier = svm.SVC()
+	classifier = svm.SVC(kernel='linear', C=1.0, gamma=0.0001)
 	classifier.fit(training_samples, training_classes)
 	#print "Finished training."
 
@@ -132,7 +135,7 @@ for gen in range(1,(test_range+1)):
 	file_handler.plot_confusion_matrix(cnf_matrix, classes=['learned','belles_letters'],
 		title='SVM confusion matrix')
 
-	plt.savefig('../results/confusion-matrix/'+str(gen)+'-svm-confusion-matrix.png')
+	plt.savefig('../results/confusion-matrix/tunned/'+str(gen)+'-svm-confusion-matrix.png')
 
 print "\n\nAverage mse: "
 print "\tMLP -> \t\t"+str(numpy.mean(mse_dict['mlp']))

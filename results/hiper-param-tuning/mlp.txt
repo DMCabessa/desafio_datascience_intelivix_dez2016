@@ -1,40 +1,8 @@
-Running test loop 1 out of 5...
+Running test loop 1 out of 10...
 ========================================
 Testing values for 'solver'
 ========================================
-> Best score: 0.805825242718
-> Best param: sgd
-========================================
-Testing values for 'activation'
-========================================
-> Best score: 0.893203883495
-> Best param: logistic
-========================================
-Testing values for 'hidden_layer_sizes'
-========================================
-> Best score: 0.854368932039
-> Best param: (50,)
-========================================
-Testing values for 'alpha'
-========================================
-> Best score: 0.796116504854
-> Best param: 0.0001
-========================================
-Testing values for 'learning_rate'
-========================================
-> Best score: 0.844660194175
-> Best param: invscaling
-========================================
-Testing values for 'learning_rate_init'
-========================================
-> Best score: 0.883495145631
-> Best param: 0.0001
-
-Running test loop 2 out of 5...
-========================================
-Testing values for 'solver'
-========================================
-> Best score: 0.834951456311
+> Best score: 0.815533980583
 > Best param: lbfgs
 ========================================
 Testing values for 'activation'
@@ -44,13 +12,13 @@ Testing values for 'activation'
 ========================================
 Testing values for 'hidden_layer_sizes'
 ========================================
-> Best score: 0.766990291262
-> Best param: (50,)
+> Best score: 0.834951456311
+> Best param: (100,)
 ========================================
 Testing values for 'alpha'
 ========================================
-> Best score: 0.805825242718
-> Best param: 1e-05
+> Best score: 0.854368932039
+> Best param: 0.001
 ========================================
 Testing values for 'learning_rate'
 ========================================
@@ -59,30 +27,30 @@ Testing values for 'learning_rate'
 ========================================
 Testing values for 'learning_rate_init'
 ========================================
-> Best score: 0.864077669903
-> Best param: 0.0001
+> Best score: 0.815533980583
+> Best param: 0.001
 
-Running test loop 3 out of 5...
+Running test loop 2 out of 10...
 ========================================
 Testing values for 'solver'
 ========================================
-> Best score: 0.805825242718
+> Best score: 0.883495145631
 > Best param: lbfgs
 ========================================
 Testing values for 'activation'
 ========================================
-> Best score: 0.854368932039
+> Best score: 0.912621359223
 > Best param: logistic
 ========================================
 Testing values for 'hidden_layer_sizes'
 ========================================
-> Best score: 0.708737864078
+> Best score: 0.854368932039
 > Best param: (50,)
 ========================================
 Testing values for 'alpha'
 ========================================
-> Best score: 0.796116504854
-> Best param: 0.001
+> Best score: 0.873786407767
+> Best param: 0.0001
 ========================================
 Testing values for 'learning_rate'
 ========================================
@@ -91,30 +59,62 @@ Testing values for 'learning_rate'
 ========================================
 Testing values for 'learning_rate_init'
 ========================================
-> Best score: 0.825242718447
+> Best score: 0.834951456311
 > Best param: 0.0001
 
-Running test loop 4 out of 5...
+Running test loop 3 out of 10...
 ========================================
 Testing values for 'solver'
 ========================================
-> Best score: 0.864077669903
-> Best param: sgd
+> Best score: 0.834951456311
+> Best param: lbfgs
 ========================================
 Testing values for 'activation'
 ========================================
-> Best score: 0.893203883495
+> Best score: 0.912621359223
 > Best param: logistic
 ========================================
 Testing values for 'hidden_layer_sizes'
 ========================================
-> Best score: 0.68932038835
+> Best score: 0.854368932039
 > Best param: (50,)
 ========================================
 Testing values for 'alpha'
 ========================================
-> Best score: 0.815533980583
+> Best score: 0.864077669903
 > Best param: 0.0001
+========================================
+Testing values for 'learning_rate'
+========================================
+> Best score: 0.796116504854
+> Best param: invscaling
+========================================
+Testing values for 'learning_rate_init'
+========================================
+> Best score: 0.873786407767
+> Best param: 0.0001
+
+Running test loop 4 out of 10...
+========================================
+Testing values for 'solver'
+========================================
+> Best score: 0.825242718447
+> Best param: lbfgs
+========================================
+Testing values for 'activation'
+========================================
+> Best score: 0.873786407767
+> Best param: logistic
+========================================
+Testing values for 'hidden_layer_sizes'
+========================================
+> Best score: 0.796116504854
+> Best param: (50,)
+========================================
+Testing values for 'alpha'
+========================================
+> Best score: 0.747572815534
+> Best param: 0.001
 ========================================
 Testing values for 'learning_rate'
 ========================================
@@ -123,14 +123,46 @@ Testing values for 'learning_rate'
 ========================================
 Testing values for 'learning_rate_init'
 ========================================
-> Best score: 0.854368932039
+> Best score: 0.864077669903
 > Best param: 0.001
 
-Running test loop 5 out of 5...
+Running test loop 5 out of 10...
 ========================================
 Testing values for 'solver'
 ========================================
 > Best score: 0.825242718447
+> Best param: sgd
+========================================
+Testing values for 'activation'
+========================================
+> Best score: 0.883495145631
+> Best param: logistic
+========================================
+Testing values for 'hidden_layer_sizes'
+========================================
+> Best score: 0.883495145631
+> Best param: (50,)
+========================================
+Testing values for 'alpha'
+========================================
+> Best score: 0.796116504854
+> Best param: 1e-05
+========================================
+Testing values for 'learning_rate'
+========================================
+> Best score: 0.834951456311
+> Best param: constant
+========================================
+Testing values for 'learning_rate_init'
+========================================
+> Best score: 0.815533980583
+> Best param: 0.0001
+
+Running test loop 6 out of 10...
+========================================
+Testing values for 'solver'
+========================================
+> Best score: 0.912621359223
 > Best param: lbfgs
 ========================================
 Testing values for 'activation'
@@ -140,8 +172,72 @@ Testing values for 'activation'
 ========================================
 Testing values for 'hidden_layer_sizes'
 ========================================
+> Best score: 0.873786407767
+> Best param: (50,)
+========================================
+Testing values for 'alpha'
+========================================
+> Best score: 0.854368932039
+> Best param: 0.001
+========================================
+Testing values for 'learning_rate'
+========================================
+> Best score: 0.873786407767
+> Best param: adaptive
+========================================
+Testing values for 'learning_rate_init'
+========================================
+> Best score: 0.844660194175
+> Best param: 0.0001
+
+Running test loop 7 out of 10...
+========================================
+Testing values for 'solver'
+========================================
+> Best score: 0.796116504854
+> Best param: lbfgs
+========================================
+Testing values for 'activation'
+========================================
 > Best score: 0.883495145631
+> Best param: logistic
+========================================
+Testing values for 'hidden_layer_sizes'
+========================================
+> Best score: 0.902912621359
 > Best param: (100,)
+========================================
+Testing values for 'alpha'
+========================================
+> Best score: 0.805825242718
+> Best param: 0.001
+========================================
+Testing values for 'learning_rate'
+========================================
+> Best score: 0.834951456311
+> Best param: constant
+========================================
+Testing values for 'learning_rate_init'
+========================================
+> Best score: 0.844660194175
+> Best param: 0.0001
+
+Running test loop 8 out of 10...
+========================================
+Testing values for 'solver'
+========================================
+> Best score: 0.815533980583
+> Best param: lbfgs
+========================================
+Testing values for 'activation'
+========================================
+> Best score: 0.864077669903
+> Best param: logistic
+========================================
+Testing values for 'hidden_layer_sizes'
+========================================
+> Best score: 0.854368932039
+> Best param: (50,)
 ========================================
 Testing values for 'alpha'
 ========================================
@@ -150,11 +246,84 @@ Testing values for 'alpha'
 ========================================
 Testing values for 'learning_rate'
 ========================================
-> Best score: 0.873786407767
-> Best param: invscaling
+> Best score: 0.796116504854
+> Best param: constant
 ========================================
 Testing values for 'learning_rate_init'
 ========================================
+> Best score: 0.844660194175
+> Best param: 0.0001
+
+Running test loop 9 out of 10...
+========================================
+Testing values for 'solver'
+========================================
+> Best score: 0.805825242718
+> Best param: lbfgs
+========================================
+Testing values for 'activation'
+========================================
+> Best score: 0.873786407767
+> Best param: tanh
+========================================
+Testing values for 'hidden_layer_sizes'
+========================================
+> Best score: 0.854368932039
+> Best param: (50,)
+========================================
+Testing values for 'alpha'
+========================================
+> Best score: 0.757281553398
+> Best param: 1e-05
+========================================
+Testing values for 'learning_rate'
+========================================
+> Best score: 0.883495145631
+> Best param: constant
+========================================
+Testing values for 'learning_rate_init'
+========================================
+> Best score: 0.825242718447
+> Best param: 0.01
+
+Running test loop 10 out of 10...
+========================================
+Testing values for 'solver'
+========================================
+> Best score: 0.825242718447
+> Best param: lbfgs
+========================================
+Testing values for 'activation'
+========================================
 > Best score: 0.864077669903
+> Best param: logistic
+========================================
+Testing values for 'hidden_layer_sizes'
+========================================
+> Best score: 0.815533980583
+> Best param: (100,)
+========================================
+Testing values for 'alpha'
+========================================
+> Best score: 0.776699029126
 > Best param: 0.001
+========================================
+Testing values for 'learning_rate'
+========================================
+> Best score: 0.776699029126
+> Best param: adaptive
+========================================
+Testing values for 'learning_rate_init'
+========================================
+> Best score: 0.834951456311
+> Best param: 0.01
+
+
+
+Best value for 'solver': lbfgs
+Best value for 'activation': logistic
+Best value for 'hidden_layer_sizes': (50,)
+Best value for 'alpha': 0.001
+Best value for 'learning_rate': adaptive
+Best value for 'learning_rate_init': 0.0001
 

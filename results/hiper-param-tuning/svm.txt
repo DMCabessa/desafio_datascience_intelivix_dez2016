@@ -1,25 +1,76 @@
-Running test loop 1 out of 5...
+Running test loop 1 out of 10...
 ========================================
 Testing values for 'kernel'
 ========================================
-> Best score: 0.873786407767
+> Best score: 0.854368932039
 > Best param: linear
 ========================================
 Testing values for 'C'
 ========================================
-> Best score: 0.873786407767
+> Best score: 0.834951456311
 > Best param: 10.0
 ========================================
 Testing values for 'gamma'
 ========================================
-> Best score: 0.873786407767
+> Best score: 0.834951456311
 > Best param: 0.0001
 
-Running test loop 2 out of 5...
+Running test loop 2 out of 10...
 ========================================
 Testing values for 'kernel'
 ========================================
-> Best score: 0.815533980583
+> Best score: 0.883495145631
+> Best param: linear
+========================================
+Testing values for 'C'
+========================================
+> Best score: 0.864077669903
+> Best param: 10.0
+========================================
+Testing values for 'gamma'
+========================================
+> Best score: 0.854368932039
+> Best param: 0.0001
+
+Running test loop 3 out of 10...
+========================================
+Testing values for 'kernel'
+========================================
+> Best score: 0.864077669903
+> Best param: linear
+========================================
+Testing values for 'C'
+========================================
+> Best score: 0.854368932039
+> Best param: 10.0
+========================================
+Testing values for 'gamma'
+========================================
+> Best score: 0.834951456311
+> Best param: 0.0001
+
+Running test loop 4 out of 10...
+========================================
+Testing values for 'kernel'
+========================================
+> Best score: 0.864077669903
+> Best param: rbf
+========================================
+Testing values for 'C'
+========================================
+> Best score: 0.864077669903
+> Best param: 1.0
+========================================
+Testing values for 'gamma'
+========================================
+> Best score: 0.844660194175
+> Best param: 0.0001
+
+Running test loop 5 out of 10...
+========================================
+Testing values for 'kernel'
+========================================
+> Best score: 0.864077669903
 > Best param: linear
 ========================================
 Testing values for 'C'
@@ -29,19 +80,19 @@ Testing values for 'C'
 ========================================
 Testing values for 'gamma'
 ========================================
-> Best score: 0.78640776699
+> Best score: 0.796116504854
 > Best param: 0.0001
 
-Running test loop 3 out of 5...
+Running test loop 6 out of 10...
 ========================================
 Testing values for 'kernel'
 ========================================
-> Best score: 0.873786407767
+> Best score: 0.854368932039
 > Best param: linear
 ========================================
 Testing values for 'C'
 ========================================
-> Best score: 0.825242718447
+> Best score: 0.815533980583
 > Best param: 1.0
 ========================================
 Testing values for 'gamma'
@@ -49,28 +100,11 @@ Testing values for 'gamma'
 > Best score: 0.825242718447
 > Best param: 0.0001
 
-Running test loop 4 out of 5...
+Running test loop 7 out of 10...
 ========================================
 Testing values for 'kernel'
 ========================================
-> Best score: 0.873786407767
-> Best param: linear
-========================================
-Testing values for 'C'
-========================================
-> Best score: 0.825242718447
-> Best param: 1.0
-========================================
-Testing values for 'gamma'
-========================================
-> Best score: 0.834951456311
-> Best param: 0.0001
-
-Running test loop 5 out of 5...
-========================================
-Testing values for 'kernel'
-========================================
-> Best score: 0.834951456311
+> Best score: 0.864077669903
 > Best param: linear
 ========================================
 Testing values for 'C'
@@ -82,4 +116,60 @@ Testing values for 'gamma'
 ========================================
 > Best score: 0.834951456311
 > Best param: 0.0001
+
+Running test loop 8 out of 10...
+========================================
+Testing values for 'kernel'
+========================================
+> Best score: 0.854368932039
+> Best param: linear
+========================================
+Testing values for 'C'
+========================================
+> Best score: 0.844660194175
+> Best param: 1.0
+========================================
+Testing values for 'gamma'
+========================================
+> Best score: 0.854368932039
+> Best param: 0.0001
+
+Running test loop 9 out of 10...
+========================================
+Testing values for 'kernel'
+========================================
+> Best score: 0.883495145631
+> Best param: sigmoid
+========================================
+Testing values for 'C'
+========================================
+> Best score: 0.844660194175
+> Best param: 1.0
+========================================
+Testing values for 'gamma'
+========================================
+> Best score: 0.864077669903
+> Best param: 0.0001
+
+Running test loop 10 out of 10...
+========================================
+Testing values for 'kernel'
+========================================
+> Best score: 0.825242718447
+> Best param: linear
+========================================
+Testing values for 'C'
+========================================
+> Best score: 0.825242718447
+> Best param: 10.0
+========================================
+Testing values for 'gamma'
+========================================
+> Best score: 0.796116504854
+> Best param: 0.0001
+
+
+Best value for 'kernel': linear
+Best value for 'C': 1.0
+Best value for 'gamma': 0.0001
 
