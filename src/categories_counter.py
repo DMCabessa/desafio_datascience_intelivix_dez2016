@@ -11,4 +11,6 @@ for line in file:
 	categories_count[category] += 1
 
 sortedlist = sorted(categories_count.items(), key=operator.itemgetter(1), reverse=True)
-return sortedlist
+
+print "Category 0: "+sortedlist[0][0]
+print "Category 1: "+sortedlist[1][0]
