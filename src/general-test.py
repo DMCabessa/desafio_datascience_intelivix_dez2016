@@ -60,7 +60,7 @@ for gen in range(1,(test_range+1)):
 	print "MLP::mse: \t\t"+str(mse)
 	mse_dict['mlp'].append(mse)
 
-	# Confusion matrix setop
+	# Confusion matrix setup
 	cnf_matrix = confusion_matrix(true_classes, predicted_classes)
 	numpy.set_printoptions(precision=2)
 
@@ -94,7 +94,7 @@ for gen in range(1,(test_range+1)):
 	print "Decision tree::mse: \t"+str(mse)
 	mse_dict['tree'].append(mse)
 
-	# Confusion matrix setop
+	# Confusion matrix setup
 	cnf_matrix = confusion_matrix(true_classes, predicted_classes)
 	numpy.set_printoptions(precision=2)
 
@@ -127,7 +127,7 @@ for gen in range(1,(test_range+1)):
 	print "SVM::mse: \t\t"+str(mse)
 	mse_dict['svm'].append(mse)
 
-	# Confusion matrix setop
+	# Confusion matrix setup
 	cnf_matrix = confusion_matrix(true_classes, predicted_classes)
 	numpy.set_printoptions(precision=2)
 
